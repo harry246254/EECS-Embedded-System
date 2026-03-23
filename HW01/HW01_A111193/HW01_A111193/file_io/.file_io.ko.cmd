@@ -1,0 +1,1 @@
+savedcmd_/home/user/file_io/file_io.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/user/file_io/file_io.ko /home/user/file_io/file_io.o /home/user/file_io/file_io.mod.o;  make -f ./arch/x86/Makefile.postlink /home/user/file_io/file_io.ko
